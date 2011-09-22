@@ -1,0 +1,12 @@
+{application, bee_openid,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bee_openid_app, []}},
+  {env, []}
+ ]}.
